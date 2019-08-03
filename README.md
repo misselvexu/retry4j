@@ -1,6 +1,6 @@
 ![Build Status](https://travis-ci.org/elennick/retry4j.svg?branch=master&link=https://travis-ci.org/elennick/retry4j&link=https://travis-ci.org/elennick/retry4j) [![Coverage Status](https://coveralls.io/repos/github/elennick/retry4j/badge.svg?branch=master)](https://coveralls.io/github/elennick/retry4j?branch=master) ![Maven Central](https://img.shields.io/maven-central/v/com.evanlennick/retry4j.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Retry4j
+## Retry4j <Acmedcare+>
 
 Retry4j is a simple Java library to assist with retrying transient failure situations or unreliable code. Retry4j aims to be readable, well documented and streamlined.
 
@@ -93,29 +93,6 @@ CallExecutor executor = new CallExecutorBuilder<>()
         .build();
         
 executor.execute(callable);
-```
-
-## Dependencies
-
-### Maven
-
-```xml
-<dependency>
-    <groupId>com.evanlennick</groupId>
-    <artifactId>retry4j</artifactId>
-    <version>0.15.0</version>
-</dependency>
-```
-
-### SBT
-
-```sbt
-libraryDependencies += "com.evanlennick" % "retry4j" % "0.15.0"
-```
-### Gradle
-
-```groovy
-compile "com.evanlennick:retry4j:0.15.0"
 ```
 
 ## Usage
